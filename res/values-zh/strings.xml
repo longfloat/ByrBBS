@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">北邮人论坛</string>
+    <string name="action_settings">设置</string>
+    <string name="action_refresh">刷新</string>
+    <string name="prompt_welcome">欢迎登录北邮人论坛</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="prompt_username">请输入用户名</string>
+    <string name="prompt_sign_in">登录</string>
+    <string name="prompt_signing_in">登陆中...请稍后...</string>
+    <string name="prompt_password_visible">显示密码</string>
+    <string name="prompt_password_hidden">隐藏密码</string>
+    <string name="prompt_username_empty">用户名不能为空!</string>
+    <string name="prompt_password_empty">密码不能为空!</string>
+    <string name="prompt_username_password_not_match">用户名和密码不匹配!</string>
+    <string name="prompt_net_error">网络连接错误, 请重试!</string>
+    <string name="prompt_login_success">登陆成功!</string>
+    <string name="prompt_loading_data">获取数据中...</string>
+    <string name="prompt_no_data">暂时没有数据, 请稍后重试!</string>
+    <string name="prompt_board_post_today_count">今日:\ </string>
+    <string name="prompt_board_post_threads_count">主题:\ </string>
+    <string name="prompt_board_post_all_count">文章:\ </string>
+    <string name="prompt_board_user_online_count">在线用户: </string>
+    <string name="prompt_board_manager">版主:\ </string>
+    <string name="prompt_board_details_author">作者:</string>
+    <string name="prompt_board_details_post_time">发帖时间:</string>
+    <string name="prompt_board_details_reply_count">回复:</string>
+    <string name="prompt_board_details_last_reply">最新回复:</string>
+    <string name="title_section_topten">十大</string>
+    <string name="title_section_section_list">分区</string>
+    <string name="title_section_user">个人</string>
+
+</resources>

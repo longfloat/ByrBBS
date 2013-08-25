@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="action_refresh" format="reference" />
+    <attr name="action_send" format="reference" />
+    <attr name="action_search" format="reference" />
+    <attr name="content_edit" format="reference" />
+    <attr name="content_email" format="reference" />
+    <attr name="social_share" format="reference" />
+    <attr name="social_reply" format="reference" />
+    <attr name="social_send_now" format="reference" />
+    <attr name="listPreferredItemHeightLarge" format="reference" />
+    <attr name="listPreferredItemHeightSmall" format="reference" />
+    <attr name="listPreferredItemHeight" format="reference" />
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ByrBBS</string>
+    <string name="item_splitter">\ |\ </string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">refresh</string>
+    <string name="prompt_welcome">Sign in bbs.byr.cn</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_sign_in">Sign in</string>
+    <string name="prompt_password_visible">Display password</string>
+    <string name="prompt_password_hidden">Hide password</string>
+    <string name="prompt_signing_in">Signing in...\nPlease wait...</string>
+    <string name="prompt_username_empty">Username cannot be empty!</string>
+    <string name="prompt_password_empty">Password cannot be empty!</string>
+    <string name="prompt_username_password_not_match">Username and password not match!</string>
+    <string name="prompt_net_error">net connection error, try again later.</string>
+    <string name="prompt_login_success">Login success!</string>
+    <string name="prompt_loading_data">Loading data...</string>
+    <string name="prompt_no_data">There is no data now, try again later!</string>
+    <string name="prompt_board_post_today_count">today:\ </string>
+    <string name="prompt_board_post_threads_count">threads:\ </string>
+    <string name="prompt_board_post_all_count">articles:\ </string>
+    <string name="prompt_board_user_online_count">user\ online: </string>
+    <string name="prompt_board_manager">manager:\ </string>
+    <string name="prompt_board_details_author">author:</string>
+    <string name="prompt_board_details_post_time">post time:</string>
+    <string name="prompt_board_details_reply_count">reply count:</string>
+    <string name="prompt_board_details_last_reply">new reply:</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section_topten">Top Ten</string>
+    <string name="title_section_section_list">Sections</string>
+    <string name="title_section_user">User</string>
+    <string name="title_activity_board_details">BoardDetailsActivity</string>
+
+</resources>

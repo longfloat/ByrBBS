@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItemBase"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_board_details_article_title"
+        style="@style/ListItemTextBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_board_details_author" />
+
+        <TextView
+            android:id="@+id/item_board_details_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/prompt_board_details_post_time" />
+
+        <TextView
+            android:id="@+id/item_board_details_post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_board_details_reply_count" />
+
+        <TextView
+            android:id="@+id/item_board_details_reply_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="@string/prompt_board_details_last_reply" />
+
+        <TextView
+            android:id="@+id/item_board_details_last_user"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/item_board_details_last_reply_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="2013-08-21" />
+    </LinearLayout>
+
+</LinearLayout>

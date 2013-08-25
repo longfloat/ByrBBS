@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light">@android:color/background_light</color>
+    <color name="holo_blue_light">@android:color/holo_blue_light</color>
+    <color name="holo_blue_dark">@android:color/holo_blue_dark</color>
+    <color name="text_default">@android:color/black</color>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItemBase"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_section_title"
+        style="@style/ListItemTextBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="board title"
+        android:textColor="@color/text_default" />
+
+    <LinearLayout
+        android:id="@+id/item_section_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- post today -->
+
+            <TextView
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prompt_board_post_today_count" />
+
+            <TextView
+                android:id="@+id/item_board_post_today_count"
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20" />
+
+            <!-- post threads -->
+
+            <TextView
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/prompt_board_post_threads_count" />
+
+            <TextView
+                android:id="@+id/item_board_post_threads_count"
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20" />
+
+            <!-- user online -->
+
+            <TextView
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/prompt_board_user_online_count" />
+
+            <TextView
+                android:id="@+id/item_board_user_online_count"
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- manager -->
+
+            <TextView
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prompt_board_manager" />
+
+            <TextView
+                android:id="@+id/item_board_manager"
+                style="@style/ListItemTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bbs.byr" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
